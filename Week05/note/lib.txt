@@ -1,0 +1,17 @@
+  540  mkdir exam1
+  542  mkdir exam2
+  544  cd exam1
+  545  mkdir lib
+  546  cd lib
+  547  pluma lib.h
+  548  gcc -c fun1.c fun2.c
+  561  ar -rc libmytestlib.a fun1.o fun2.o
+  562  gcc test.c -o test -L. -lmytestlib
+  566  ./test
+  567  ll
+
+  570  cd ../../exam2
+  572  cp ../exam1/lib/test.c ./
+  582  gcc test.c -o test -L/home/rlk/exam1/lib -lmytestlib
+  584  ./test
+
