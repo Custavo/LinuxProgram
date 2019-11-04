@@ -1,0 +1,11 @@
+ 1544  ps -ef
+ 1545  ls /proc/1
+ 1546  echo $home
+ 1547  echo $HOME
+ 1548  echo $PATH
+ 1549  cat test.c
+ 1550  ps aux
+ 1551  ps aux|grep main_dynamic
+ 1552  ps aux|grep main_dynamic|grep -v grep
+ 1553  kill -SIGSTOP  3314
+
