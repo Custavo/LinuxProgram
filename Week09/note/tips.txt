@@ -58,4 +58,5 @@
  1654  ls
  1655  ./caller2
  1656  history
+ 1739  valgrind --track-fds=yes --leak-check=full --undef-value-errors=yes ./test4
 
