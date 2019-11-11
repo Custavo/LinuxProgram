@@ -1,0 +1,15 @@
+cd ..
+ 1767  cd Week10
+ 1768  cd code
+ 1769  ls
+ 1770  gcc -o test test1.c
+ 1771  ./test1
+ 1772  ./test
+ 1773  gcc -o test test1.c
+ 1774  ./test
+ 1775  gcc -o test2 test2.c
+ 1776  ./test2
+ 1777  gcc -o test2 test2.c
+ 1778  ./test2
+ 1779  history
+
