@@ -1,0 +1,6 @@
+1)setid()
+2)chdir()
+3)umask[0]
+4)close parent device
+5)running
+
